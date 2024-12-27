@@ -1,0 +1,27 @@
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    height: 20px;
+    width: 50px;
+    margin-left: 3%;
+    margin-top: 2%;
+
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.get-start-btn{
+    background-color: rgb(37, 95, 240);
+    padding: 10px 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}

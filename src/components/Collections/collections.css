@@ -1,0 +1,44 @@
+.main-container{
+    min-height: 100vh;
+    max-width: 100vw;
+    margin-bottom: 400px;
+}
+.collection-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+}
+.collection-image{
+    height: 500px;
+    width: 450px;
+}
+.custom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feature{
+    background-color: rgba(219, 211, 211, 0.63);
+    color: black;
+    padding: 12px 20px;
+    border-radius:25px;
+    border-width: 0px;
+    margin-left: 10px;
+}
+.save-btn{
+    background-color: rgb(83, 83, 243);
+    border-width: 0px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: white;
+}
